@@ -16,6 +16,11 @@ The technologies used are HTML, CSS, JavaScript, REST API
 
 API used: https://timeapi.io/swagger/index.html
 
+
 Wireframe sketch: 
+
+
+
+
 
 ![Proposed wireframe](https://github.com/rocknrome/World-clock-alarm/assets/126816805/0bd6143c-9cb8-4487-8dab-0f5b149e71c3)
