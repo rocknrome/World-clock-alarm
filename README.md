@@ -15,3 +15,5 @@ ensuring they never miss an important event due to time zone differences.
 The technologies used are HTML, CSS, JavaScript, REST API
 
 API used: https://timeapi.io/swagger/index.html
+
+Wireframe scetch: https://github.com/rocknrome/World-clock-alarm/blob/main/WIREFRAME/Proposed%20wireframe.png
