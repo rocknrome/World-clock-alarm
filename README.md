@@ -2,7 +2,8 @@
 ![alarm clock picture](https://github.com/rocknrome/World-clock-alarm/assets/126816805/1384459d-fea7-421d-a513-35b9499cd103)
 
 # World clock alarm
-An app to set up alarm for any time zone
+
+# An app to set up alarm for any time zone
 
 This is the app that allows to set up an alarm clock for any time zone. 
 
