@@ -13,7 +13,7 @@ effectively while traveling or attending online events in different time zones.
 This app allows users to set up an alarm clock based on any time zone, 
 ensuring they never miss an important event due to time zone differences.
 
-The technologies used are HTML, CSS, JavaScript, REST API
+The technologies used are HTML, CSS, JavaScript, jQuery, REST API
 
 API used: https://timeapi.io/swagger/index.html
 
