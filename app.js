@@ -20,7 +20,20 @@
     //---------------------------------------------------//
 
     // Fetch and populate timezones
-
+    function populateTimeZone() {
+        $.ajax({
+            url: 'http://worldtimeapi.org/api/timezone',
+            success: function(timezones) {
+                timezones.forEach(zone => {
+                    $timezoneSelect.append(`<option value="${zone}">${zone}</option>`);
+                });
+            },
+            error: function(error) {
+                console.log('Error fetching timezones:', error);
+            }
+        });
+    }
+    populateTimeZone()
 
     // Function to display alarms
 
