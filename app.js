@@ -36,10 +36,27 @@
     populateTimeZone()
 
     // Function to display alarms
-
+    function displayAlarms() {
+        $alarmDisplay.empty();  //clearing out the display block initially
+        alarms.forEach((alarm, index) => {
+          $alarmDisplay.append(`
+                    <div class="alarm">
+                        Alarm at ${alarm.time} in ${alarm.timezone}
+                        <button onclick="editAlarm(${index})">Edit</button>
+                        <button onclick="deleteAlarm(${index})">Delete</button>
+                    </div>
+                `);
+        });
+      }
+    //   displayAlarms()
 
     // Set an alarm
-
+    $setAlarmButton.click(function() {  //event listener using the jQuery method ".click"
+        const timezone = $timezoneSelect.val();
+        const time = $alarmTimeInput.val();
+        alarms.push({ timezone, time });
+        displayAlarms();
+      });
 
     // Edit an alarm
 
