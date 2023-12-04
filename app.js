@@ -59,8 +59,15 @@
       });
 
     // Edit an alarm
-
+    window.editAlarm = function(index) {
+        //edit functionality here
+    }
 
     // Delete an alarm
+    window.deleteAlarm = function(index) {
+        alarms.splice(index, 1);    //removing specific alarm with a specific index, one element only
+        displayAlarms();
+    };
+
 
 
