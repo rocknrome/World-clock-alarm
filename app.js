@@ -22,7 +22,7 @@
     // Fetch and populate timezones
     function populateTimeZone() {
         $.ajax({
-            url: 'http://worldtimeapi.org/api/timezone',
+            url: 'https://worldtimeapi.org/api/timezone',
             success: function(timezones) {
                 timezones.forEach(zone => {
                     $timezoneSelect.append(`<option value="${zone}">${zone}</option>`);
