@@ -21,12 +21,13 @@
 
     // Fetch and populate timezones
     function populateTimeZone() {
+    const corsProxy = 'https://cors-anywhere.herokuapp.com/';
+    const apiUrl = 'https://worldtimeapi.org/api/timezone';
+
     $.ajax({
-        url: 'https://worldtimeapi.org/api/timezone',
+        url: corsProxy + apiUrl,
         success: function(timezones) {
-            timezones.forEach(zone => {
-                $timezoneSelect.append(`<option value="${zone}">${zone}</option>`);
-            });
+            // ... rest of the success function ...
         },
         error: function(error) {
             console.log('Error fetching timezones:', error);
