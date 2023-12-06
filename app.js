@@ -22,7 +22,7 @@
     // Fetch and populate timezones
     function populateTimeZone() {
     const corsProxy = 'https://cors-anywhere.herokuapp.com/';
-    const apiUrl = 'https://worldtimeapi.org/api/timezone';
+    const apiUrl = 'http://worldtimeapi.org/api/timezone';
 
     $.ajax({
         url: corsProxy + apiUrl,
