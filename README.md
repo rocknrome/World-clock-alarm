@@ -24,7 +24,7 @@ Wireframe sketch:
 
 
 
-Proposed wireframe ![111](https://github.com/rocknrome/World-clock-alarm/assets/126816805/9d3fd75a-9d43-4d4b-8993-642b06fea851)
+![111](https://github.com/rocknrome/World-clock-alarm/assets/126816805/9d3fd75a-9d43-4d4b-8993-642b06fea851)
 
 
 Deployment link: https://rocknrome.github.io/World-clock-alarm/
